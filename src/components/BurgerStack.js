@@ -32,7 +32,7 @@ class BurgerStacker extends Component {
 		this.setState({
 			burgerIngredients: [
 				{ name: ingName, color: ingColor },
-                // spread op takes what was in the array and copies it over here
+                // spread operation takes what was in the array and copies it over here
 				...this.state.burgerIngredients,
 			],
 		})

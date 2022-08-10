@@ -1,11 +1,13 @@
+import BurgerStacker from "./components/BurgerStacker";
 import './App.css';
-import BurgerStacker from './components/BurgerStacker';
 
 function App() {
   return (
+
     <div>
-      <BurgerStacker />
+      <BurgerStacker/>
     </div>
+    
   );
 }
 
